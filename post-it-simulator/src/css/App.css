@@ -1,0 +1,41 @@
+.App {
+  text-align: center;
+  background-color: #3a3a3a;
+  color: white;
+  padding: 20px;
+  min-height: 100vh;
+}
+
+.input-group {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.input-group input[type="text"] {
+  margin: 5px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+.input-group label {
+  margin-left: 10px;
+}
+
+.input-group button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #333;
+  color: white;
+  cursor: pointer;
+}
+
+.notas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}

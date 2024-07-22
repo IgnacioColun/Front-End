@@ -1,0 +1,42 @@
+.nota {
+  background-color: #d1d071;
+  padding: 10px;
+  margin: 10px;
+  width: 180px;
+  height: 180px;
+  display: inline-block;
+  vertical-align: top;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  font-family: 'Comic Sans MS', 'Comic Sans', cursive;
+  border: 1px solid #ccc;
+  position: relative;
+  transform: rotate(-6deg);
+}
+
+.nota.importante {
+  background-color: #ff6f6f;
+}
+
+.nota h4 {
+  margin: 0;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.nota p {
+  margin-top: 10px;
+  font-size: 1em;
+  white-space: pre-wrap;
+}
+
+.nota button {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
